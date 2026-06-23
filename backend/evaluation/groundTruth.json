@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "expectedCategory": "Refund",
+    "expectedPriority": "P2",
+    "expectedNeedsHuman": false
+  },
+  {
+    "id": 3,
+    "expectedCategory": "Order",
+    "expectedPriority": "P2",
+    "expectedNeedsHuman": false
+  },
+  {
+    "id": 7,
+    "expectedCategory": "Billing",
+    "expectedPriority": "P2",
+    "expectedNeedsHuman": true
+  },
+  {
+    "id": 8,
+    "expectedCategory": "General Inquiry",
+    "expectedPriority": "P3",
+    "expectedNeedsHuman": true
+  },
+  {
+    "id": 13,
+    "expectedCategory": "Billing",
+    "expectedPriority": "P1",
+    "expectedNeedsHuman": true
+  },
+  {
+    "id": 15,
+    "expectedCategory": "Other",
+    "expectedPriority": "P1",
+    "expectedNeedsHuman": true
+  },
+  {
+    "id": 18,
+    "expectedCategory": "Account",
+    "expectedPriority": "P0",
+    "expectedNeedsHuman": true
+  },
+  {
+    "id": 21,
+    "expectedCategory": "Complaint",
+    "expectedPriority": "P2",
+    "expectedNeedsHuman": true
+  },
+  {
+    "id": 33,
+    "expectedCategory": "Complaint",
+    "expectedPriority": "P2",
+    "expectedNeedsHuman": true
+  },
+  {
+    "id": 40,
+    "expectedCategory": "Billing",
+    "expectedPriority": "P1",
+    "expectedNeedsHuman": true
+  }
+]

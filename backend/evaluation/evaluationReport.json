@@ -1,0 +1,99 @@
+{
+  "totalEvaluated": 10,
+  "correctCategory": 6,
+  "correctPriority": 7,
+  "correctNeedsHuman": 5,
+  "categoryAccuracy": 60,
+  "priorityAccuracy": 70,
+  "needsHumanAccuracy": 50,
+  "averageConfidence": 0.91,
+  "averageLatencyMs": 835,
+  "failures": [
+    {
+      "id": 7,
+      "expected": {
+        "category": "Billing",
+        "priority": "P2",
+        "needsHuman": true
+      },
+      "predicted": {
+        "category": "Order",
+        "priority": "P2",
+        "needsHuman": false,
+        "confidence": 0.9
+      },
+      "reasons": [
+        "Category mismatch",
+        "Needs human mismatch"
+      ]
+    },
+    {
+      "id": 13,
+      "expected": {
+        "category": "Billing",
+        "priority": "P1",
+        "needsHuman": true
+      },
+      "predicted": {
+        "category": "Billing",
+        "priority": "P1",
+        "needsHuman": false,
+        "confidence": 0.95
+      },
+      "reasons": [
+        "Needs human mismatch"
+      ]
+    },
+    {
+      "id": 21,
+      "expected": {
+        "category": "Complaint",
+        "priority": "P2",
+        "needsHuman": true
+      },
+      "predicted": {
+        "category": null,
+        "priority": null,
+        "needsHuman": null,
+        "confidence": null
+      },
+      "reasons": [
+        "Prediction failed"
+      ]
+    },
+    {
+      "id": 33,
+      "expected": {
+        "category": "Complaint",
+        "priority": "P2",
+        "needsHuman": true
+      },
+      "predicted": {
+        "category": null,
+        "priority": null,
+        "needsHuman": null,
+        "confidence": null
+      },
+      "reasons": [
+        "Prediction failed"
+      ]
+    },
+    {
+      "id": 40,
+      "expected": {
+        "category": "Billing",
+        "priority": "P1",
+        "needsHuman": true
+      },
+      "predicted": {
+        "category": null,
+        "priority": null,
+        "needsHuman": null,
+        "confidence": null
+      },
+      "reasons": [
+        "Prediction failed"
+      ]
+    }
+  ]
+}
